@@ -5,3 +5,11 @@
 button.btn {
   margin-top: 100px;
 }
+
+.row {
+  display: none;
+}
+
+.jumbotron {
+  text-align: center;
+}
