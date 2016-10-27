@@ -72,7 +72,8 @@ $(document).ready(function(){
     roll1 = roll();
     roll2 = roll();
     currentPlayer.activeStatus();
-
+    $("div#player1Score").text(" " + player1.score);
+    $("div#player2Score").text(" " + player2.score);
 
 });
 
